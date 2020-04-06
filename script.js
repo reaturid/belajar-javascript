@@ -23,15 +23,21 @@ let siswa =['siswa', 'siswa2', 'siswa3']; //array
   -Aritmatika/matematika/binary = * / + - %
   -Penugasan/unary/assigment = = += *= -= /= %=
   -Perbandingan = == === > < <= >= !=
+  -logika = and && or || not !
+  -string = +
+  -typeof= typeof(operan)
+  -kondisi
   
   binary = operan1 operator operan2
   unary = operan operator/operator = operan
   trinary = operan1 operator operan2 operator operand3
 */
 let x = 10; //unary/assigment/penugasan
-console.log(x * 2); //binary/aritmatika
-console.log(x * 2 + 3); //trinary
+console.log("penugasan " + x * 2); //binary/aritmatika
+console.log("trinary" + x * 2 + 3); //trinary
 
+console.log("logika"+ x % 2 == 0) && (x == 10);
+//logika
 // function pada JavaScript ada 2
 /*
   -fungsi yang sudah disediakan oleh JavaScript
