@@ -66,3 +66,7 @@ let siswa1 = Siswa("Diki", 12);
 let fungsi = function() {
     console.log("ini adalah function expression");
 }
+
+let orang = nama => console.log(nama);
+
+let diki = orang('dik555i');
